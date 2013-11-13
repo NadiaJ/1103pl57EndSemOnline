@@ -7,6 +7,10 @@ public class Project {
 		this.projectname = projectname;
 	}
 
+	public Project() {
+		// TODO Auto-generated constructor stub
+	}
+
 	private int projectid;
 	private String projectname;
 	

@@ -8,6 +8,7 @@ public class Team {
 	private int capacity;
 	private ArrayList<Person> team=new ArrayList<Person>();
 	
+	
 	public int getCapacity() {
 		
 		return this.team.size();
