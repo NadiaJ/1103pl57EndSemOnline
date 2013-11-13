@@ -11,8 +11,8 @@ public class ProjectTest extends TestCase {
 	Project project;
 	@Before
 	public void setUp() throws Exception {
-		project=new Project();
-		project.setProjectName("Online Voting System");
+		
+		project=new Project(3,"Online Voting System");
 		
 	}
 
@@ -25,7 +25,8 @@ public class ProjectTest extends TestCase {
 	@Test
 	public void testSetProjectName() {
 		assertEquals("Online Voting System",project.getProjectName());
-		fail("Not yet implemented");
+		assertNotSame(2,project.getProjectid());
+		//fail("Not yet implemented");
 	}
 
 }
